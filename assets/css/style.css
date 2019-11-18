@@ -1,0 +1,106 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin: auto
+    
+}
+body{
+    background-color: black;
+}
+.header{
+    text-align: center;
+    grid-column: 1/4;
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: blue;    
+}
+
+p{
+    grid-column: 1/4;
+    text-align: left;
+    color: white;
+}
+.menu li{
+    align-items: center;
+    margin-right: 30px;
+    float: left;
+    display: block;
+    border-radius: 13%; 
+    padding: 1% 1% 1% 1%;
+    background-color: rgba(190, 190, 190, 0.698);
+    
+    
+}
+.menu{
+    grid-column: 1/4;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 255, 229);
+
+}
+.info{
+    color: yellowgreen;
+    text-align: center;
+
+}
+.texto{
+    grid-column: 1/4;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+.contenido{
+    grid-column: 1/4;
+    color: white;
+    font-family: Montserrat;
+}
+.titulo{
+    color:darkorchid;
+    text-align: center;
+
+}
+.hardware{
+    color: darkorchid;
+}
+.software{
+    color: darkorchid;
+}
+.anti{
+    color: blue;
+}
+.links{
+    color: white;
+    grid-column: 1/3;
+
+}
+.ex{
+    grid-column: 1/4;
+}
+.col{
+    color:darkorchid;
+    font-family: Montserrat;
+}
+.autor{
+    grid-column: 1/4;
+    color: darkorchid;
+}
+.nombres{
+    color: white;
+    grid-column: 1/3;
+}
+.frase{
+    font-family: cursive;
+    grid-column: 3/4;
+    padding: 0% 0% 0% 40%;
+}
+.key{
+    grid-column: 1;
+    height: 20%;
+    width: 20%;
+}
